@@ -1,94 +1,113 @@
 # 🧠 Ultimate Agent Skills
 
-  > **أقوى مجموعة مهارات لأي AI Agent — مهارات Anthropic الرسمية + SuperAgent Skills لـ OpenCode وOpenClaw**
+  A comprehensive library of **real, actionable SKILL.md files** for AI agents.
+  Load any skill and immediately level up your AI assistant's capabilities.
 
-  [![Skills](https://img.shields.io/badge/Skills-50%2B-brightgreen)](#) [![Anthropic](https://img.shields.io/badge/Anthropic-Official-orange)](#) [![SuperAgent](https://img.shields.io/badge/SuperAgent-OpenCode-blue)](#) [![License](https://img.shields.io/badge/License-MIT-yellow)](#)
+  > Works with: Claude, OpenCode, OpenClaw, Cursor, Copilot, and any agent that can read files.
 
-  ---
+  ## 📦 Skills Directory (24 Skills)
 
-  ## 🎯 ما هذا الريبو؟
+  ### 🏛️ Anthropic Official Skills (2025)
+  | Skill | Description |
+  |-------|-------------|
+  | [agentic-coding](skills/anthropic/agentic-coding/SKILL.md) | Best practices for AI-assisted software development |
+  | [computer-use](skills/anthropic/computer-use/SKILL.md) | Control computers: browser, desktop, mouse, keyboard |
+  | [tool-use](skills/anthropic/tool-use/SKILL.md) | Function calling and tool integration patterns |
+  | [multi-agent](skills/anthropic/multi-agent/SKILL.md) | Orchestrating multiple AI agents |
+  | [memory](skills/anthropic/memory/SKILL.md) | Memory systems: in-context, external, and hybrid |
+  | [long-context](skills/anthropic/long-context/SKILL.md) | Working effectively with large contexts (200K tokens) |
 
-  مجموعة ملفات **SKILL.md** جاهزة للاستخدام الفوري مع أي AI agent.  
-  كل ملف = مهارة كاملة يقرأها الـ agent ويتبعها لينجز مهام احترافية.
+  ### ⚡ SuperAgent Skills — Web Development
+  | Skill | Description |
+  |-------|-------------|
+  | [fullstack-web](skills/superagent/fullstack-web/SKILL.md) | Complete full-stack web development patterns |
+  | [api-design](skills/superagent/api-design/SKILL.md) | REST API design, validation, error handling |
+  | [database](skills/superagent/database/SKILL.md) | PostgreSQL, Drizzle ORM, migrations, optimization |
+  | [auth](skills/superagent/auth/SKILL.md) | JWT, sessions, OAuth, security best practices |
+  | [devops](skills/superagent/devops/SKILL.md) | Docker, CI/CD, deployment, monitoring |
+  | [testing](skills/superagent/testing/SKILL.md) | Unit, integration, E2E testing with Vitest + Playwright |
+  | [react-frontend](skills/superagent/react-frontend/SKILL.md) | React, TanStack Query, Zustand, forms |
+  | [typescript](skills/superagent/typescript/SKILL.md) | TypeScript strict mode, generics, utility types |
 
-  ---
+  ### 🔧 Engineering Excellence Skills
+  | Skill | Description |
+  |-------|-------------|
+  | [security](skills/engineering/security/SKILL.md) | OWASP Top 10, injection prevention, secrets management |
+  | [clean-code](skills/engineering/clean-code/SKILL.md) | Naming, SOLID principles, DRY, readable code |
+  | [performance](skills/engineering/performance/SKILL.md) | Bundle optimization, caching, N+1 queries, Core Web Vitals |
+  | [code-review](skills/engineering/code-review/SKILL.md) | What to look for, how to give feedback |
+  | [debugging](skills/engineering/debugging/SKILL.md) | Systematic debugging, stack traces, common patterns |
 
-  ## 📦 المهارات المتاحة
+  ### 🤖 AI Integration Skills
+  | Skill | Description |
+  |-------|-------------|
+  | [openai](skills/ai/openai/SKILL.md) | OpenAI API: chat, streaming, function calling, embeddings |
+  | [anthropic-sdk](skills/ai/anthropic-sdk/SKILL.md) | Claude SDK: messages, streaming, tool use, vision |
+  | [rag](skills/ai/rag/SKILL.md) | RAG systems: ingestion, chunking, retrieval, generation |
+  | [agents](skills/ai/agents/SKILL.md) | Building AI agents: planning, tools, memory, safety |
+  | [streaming](skills/ai/streaming/SKILL.md) | SSE, WebSockets, streaming AI responses |
 
-  ### 🔴 Anthropic Official Skills
-  | المهارة | الملف |
-  |---------|-------|
-  | Agentic Coding — كيف يبرمج الـ agent باحترافية | `skills/anthropic/agentic-coding/SKILL.md` |
-  | Computer Use — استخدام الكمبيوتر كالإنسان | `skills/anthropic/computer-use/SKILL.md` |
-  | Tool Use — إتقان استخدام الأدوات | `skills/anthropic/tool-use/SKILL.md` |
-  | Multi-Agent Orchestration — تنسيق عدة agents | `skills/anthropic/multi-agent/SKILL.md` |
-  | Memory & Persistence — الذاكرة والاستمرارية | `skills/anthropic/memory/SKILL.md` |
-  | Long Context Handling | `skills/anthropic/long-context/SKILL.md` |
+  ## 🚀 How to Use
 
-  ### 🟡 SuperAgent Skills (OpenCode / OpenClaw / Cursor)
-  | المهارة | الملف |
-  |---------|-------|
-  | Full-Stack Web Dev — بناء مواقع كاملة | `skills/superagent/fullstack-web/SKILL.md` |
-  | API Design & Build — تصميم وبناء APIs | `skills/superagent/api-design/SKILL.md` |
-  | Database Mastery — إتقان قواعد البيانات | `skills/superagent/database/SKILL.md` |
-  | Auth Systems — أنظمة المصادقة الكاملة | `skills/superagent/auth/SKILL.md` |
-  | DevOps & Deploy — النشر والـ CI/CD | `skills/superagent/devops/SKILL.md` |
-  | Testing Excellence — الاختبار الشامل | `skills/superagent/testing/SKILL.md` |
-  | React & Frontend Mastery | `skills/superagent/react-frontend/SKILL.md` |
-  | TypeScript Excellence | `skills/superagent/typescript/SKILL.md` |
-
-  ### 🟢 Core Engineering Skills
-  | المهارة | الملف |
-  |---------|-------|
-  | Clean Code — كتابة كود نظيف ومتسق | `skills/engineering/clean-code/SKILL.md` |
-  | Security — تأمين التطبيقات (OWASP) | `skills/engineering/security/SKILL.md` |
-  | Performance — تحسين الأداء | `skills/engineering/performance/SKILL.md` |
-  | Code Review — مراجعة الكود | `skills/engineering/code-review/SKILL.md` |
-  | Debugging — إيجاد الأخطاء وحلها | `skills/engineering/debugging/SKILL.md` |
-
-  ### 🔵 AI Integration Skills
-  | المهارة | الملف |
-  |---------|-------|
-  | OpenAI Integration | `skills/ai/openai/SKILL.md` |
-  | Anthropic SDK Usage | `skills/ai/anthropic-sdk/SKILL.md` |
-  | RAG Systems — بناء أنظمة RAG | `skills/ai/rag/SKILL.md` |
-  | AI Agents Building | `skills/ai/agents/SKILL.md` |
-  | Streaming & Real-time AI | `skills/ai/streaming/SKILL.md` |
-
-  ---
-
-  ## 🚀 كيف تستخدم المهارات؟
-
-  ### مع OpenCode
-  ```bash
-  opencode --add-context skills/anthropic/agentic-coding/SKILL.md
-  opencode --add-context skills/superagent/fullstack-web/SKILL.md
+  ### Option 1: Load a skill in your prompt
+  ```
+  Read the file at skills/superagent/fullstack-web/SKILL.md and follow its instructions.
   ```
 
-  ### مع Claude Projects
-  أضف محتوى الملف إلى **Project Instructions**
+  ### Option 2: Reference in system prompt
+  ```
+  You are an expert web developer. Follow the patterns in:
+  - skills/superagent/fullstack-web/SKILL.md
+  - skills/engineering/security/SKILL.md
+  - skills/superagent/testing/SKILL.md
+  ```
 
-  ### مع Cursor / Windsurf / Continue
-  أضف محتوى الملف إلى `.cursorrules` أو `.continuerules`
+  ### Option 3: Clone and use locally
+  ```bash
+  git clone https://github.com/hakercryptoplus-svg/ultimate-agent-skills
+  ```
 
-  ### مع أي Agent آخر
-  أضف محتوى الملف إلى الـ **system prompt**
+  ## 🎯 Skill Selection Guide
+
+  | Task | Skills to Load |
+  |------|----------------|
+  | Build a REST API | api-design + database + auth + security |
+  | Build React app | react-frontend + typescript + testing |
+  | Add AI features | openai OR anthropic-sdk + streaming |
+  | Build an AI agent | agents + tool-use + memory |
+  | Semantic search | rag + openai |
+  | Security audit | security + code-review |
+  | Fix a bug | debugging + clean-code |
+  | Optimize performance | performance + database |
+  | Deploy to production | devops + security |
+
+  ## 📋 Skill Format
+
+  Every SKILL.md follows this structure:
+  ```yaml
+  ---
+  name: skill-name
+  description: "What this skill does and when to load it"
+  ---
+
+  # Title
+
+  ## Practical code examples
+  ## Checklists
+  ## Anti-patterns to avoid
+  ## Best practices
+  ```
+
+  ## 📊 Repository Stats
+
+  - **24 total skills** across 4 categories
+  - Each skill: **100-300 lines** of actionable content
+  - Focus: **code examples over theory**
+  - Updated: **2025** (Anthropic official + modern best practices)
 
   ---
 
-  ## 🏆 لماذا هذا الريبو؟
+  ⭐ **Star this repo** if it helps you build better software with AI!
 
-  1. ✅ **مهارات حقيقية** — تعليمات قابلة للتنفيذ مباشرة، لا توثيق نظري
-  2. ✅ **مُحدَّث 2025** — أحدث إرشادات Anthropic الرسمية
-  3. ✅ **شامل** — يغطي كل مراحل تطوير البرمجيات
-  4. ✅ **عملي** — كل مهارة مع أمثلة كود حقيقية قابلة للنسخ
-  5. ✅ **متوافق** — يعمل مع OpenCode, OpenClaw, Claude, GPT, Gemini
-
-  ---
-
-  <div align="center">
-
-  ⭐ **أضف نجمة إذا أفادك هذا الريبو**
-
-  </div>
+  *Made with ❤️ for the AI engineering community*
   
